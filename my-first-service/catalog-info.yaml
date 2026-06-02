@@ -8,7 +8,7 @@ metadata:
     - practice
     - training
   annotations:
-    github.com/project-slug: ankitpyash/nodejsDay4
+    github.com/project-slug: manishpatidar21/backstage-testing
 spec:
   type: service
   lifecycle: experimental

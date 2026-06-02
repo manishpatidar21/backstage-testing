@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: my-first-service
+  description: >
+    My first Backstage catalog entry
+  tags:
+    - practice
+    - training
+  annotations:
+    github.com/project-slug: "ankitpyash/nodejsDay4"
+spec:
+  type: service
+  lifecycle: experimental
+  owner: Backstage booting up

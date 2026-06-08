@@ -32,6 +32,7 @@ jobs:
           REFRESH_TOKEN_SECRET: ${{ secrets.REFRESH_TOKEN_SECRET }}
           DATABASE_URL: sqlite:./db/users.db
 
+          new-fields: Hello
   cd:
     name: Deploy
     runs-on: ubuntu-latest
